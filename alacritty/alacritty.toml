@@ -1,0 +1,21 @@
+import = [
+   "~/.config/alacritty/catppuccin-mocha.toml"
+]
+live_config_reload = true
+
+[window]
+dimensions = { columns = 110, lines = 30 }
+padding = { x = 12, y = 14 }
+opacity = 0.95
+title = "Nyanpasu~"
+dynamic_title = false
+
+
+[font]
+normal = { family = "FiraMono Nerd Font Mono", style = "Regular" }
+size = 14
+
+# Overrides for Catppuccin Mocha Theme
+[colors.selection]
+text = "CellForeground"
+background = "#45475a"
